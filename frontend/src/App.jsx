@@ -1,7 +1,15 @@
+import { useState } from "react";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
-  return <Login />;
+  const [showRegister, setShowRegister] = useState(false);
+
+  if (showRegister) {
+    return <Register />;
+  }
+
+  return <Login onRegister={() => setShowRegister(true)} />;
 }
 
 export default App;

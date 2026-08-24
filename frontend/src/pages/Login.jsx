@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Login() {
+function Login({ onRegister }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -68,7 +68,8 @@ function Login() {
         {message && <p className="success-message">{message}</p>}
 
         <p className="register-link">
-          Don't have an account? <span>Register</span>
+  Don't have an account?{" "}
+  <span onClick={onRegister}>Register</span>
         </p>
       </div>
     </div>
