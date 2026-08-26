@@ -11,9 +11,9 @@ import type {
 export const mockUsers: User[] = [
   {
     id: 'u1',
-    name: 'Arjun Sharma',
-    email: 'arjun.sharma2023@vitstudent.ac.in',
-    regNo: '23BCE1045',
+    name: 'Sagar Awasthi',
+    email: 'sagar.awasthi2023@vitstudent.ac.in',
+    regNo: '23MIS1007',
     role: 'student',
     status: 'active',
     createdAt: '2023-08-15',
