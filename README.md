@@ -1,4 +1,4 @@
-<img width="1348" height="767" alt="Screenshot 2026-08-26 160025" src="https://github.com/user-attachments/assets/1c996378-d2a1-40ca-9535-f4941b902a7c" /><img width="1364" height="717" alt="Screenshot 2026-08-26 160132" src="https://github.com/user-attachments/assets/89ae538e-e446-4c0f-aaf1-d75fcf6f47e2" /><img width="1363" height="713" alt="Screenshot 2026-08-26 160214" src="https://github.com/user-attachments/assets/2823d143-52d9-41b5-94b0-c535c3e051dc" /># 🍔 VIT FoodHub
+🍔 VIT FoodHub
 
 ## Smart Food Court Ordering & Queue Management System
 
