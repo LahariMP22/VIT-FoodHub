@@ -195,3 +195,38 @@ Open the local development URL shown in the terminal.
 8. Admin Report
    <img width="1365" height="720" alt="Screenshot 2026-08-26 160205" src="https://github.com/user-attachments/assets/3adaec18-c829-42ad-97eb-bdc3187652d4" />
 
+
+## Team Members
+
+This project is developed as a collaborative project by a team of four members: M P Lahari, Disha Kumari, Sagar Awasthi, Praveena Kamalakannan.
+
+## Technology Stack
+
+- Frontend: React.js
+- Backend: Node.js & Express.js
+- API: RESTful API
+- Database: Supabase (MySQL & Postgres)
+- Cloud: Render
+- Version Control: Git and GitHub
+
+## Project Objectives
+
+- Provide a convenient platform for students to browse food options.
+- Allow users to place food orders digitally.
+- Reduce waiting time at food outlets.
+- Provide an organized system for managing food orders.
+- Maintain project development using Git and GitHub collaboration.
+
+## Key Features
+
+- User-friendly food browsing
+- Food shop and menu viewing
+- Cart management
+- Food ordering
+- Order tracking
+- Token/order management
+- Shop and administrator management
+
+## Project Status
+
+The project is being developed incrementally, with frontend, backend, database, testing, and documentation components being developed and integrated during different stages of the project.
