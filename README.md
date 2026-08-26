@@ -308,11 +308,10 @@ Current development activities include:
 | Team Member | Role |
 |-------------|------|
 | **Lahari MP** | Frontend Development / Project Coordination |
-| **[Member 2 Name]** | Backend Development |
-| **[Member 3 Name]** | UI/UX Design & Documentation |
-| **[Member 4 Name]** | Testing & Integration |
+| **Disha** | Backend Development |
+| **Sagar** | UI/UX Design & Documentation |
+| **Praveena** | Testing & Integration |
 
-> Replace the placeholder names and roles with the actual team member information before submission.
 
 ---
 
