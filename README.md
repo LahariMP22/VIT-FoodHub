@@ -2,248 +2,341 @@
 
 ## Smart Food Court Ordering & Queue Management System
 
-VIT FoodHub is a web-based food court ordering and queue management system developed for VIT campus.
+VIT FoodHub is a web-based food court ordering and queue management system designed to simplify food ordering inside the VIT campus.
 
-The system is designed to reduce physical queues at food courts by allowing students to browse food courts and shops, view menus, place orders, receive virtual tokens, and track their orders.
+The system allows students to browse food courts and shops, view menus, add items to a cart, place orders, receive virtual tokens, and track their order status.
 
-The application provides separate interfaces for three major user roles:
+The application provides separate interfaces for three primary user roles:
 
 - 👨‍🎓 Student
 - 👨‍🍳 Shopkeeper
 - 👨‍💼 Administrator
 
-> 🚧 **Current Status:** Frontend development completed. Backend, database, and API integration will be implemented in the next development phase.
+> 🚧 **Current Status:** Frontend development completed. Backend integration and database implementation are planned for the next phase.
 
 ---
 
-# 📌 Project Purpose
+## 📌 Project Purpose
 
-The purpose of VIT FoodHub is to provide a simple digital solution for food ordering and queue management inside the VIT campus.
+Food courts in large campuses can become crowded during peak hours, resulting in long queues and inefficient order management.
 
-The system aims to:
+VIT FoodHub aims to solve this problem by providing a simple digital ordering system where students can:
 
-- Reduce physical waiting time at food courts.
-- Allow students to place food orders digitally.
-- Provide virtual tokens for order collection.
-- Allow students to track their order status.
-- Help shopkeepers manage incoming orders.
-- Provide administrators with centralized management facilities.
-
-The project is developed as an academic course project using Agile/Scrum methodology.
-
----
-
-# ✨ Key Features
-
-## 👨‍🎓 Student Features
-
-- Registration
-- Login
-- Browse food courts
+- Browse available food courts
 - Browse food shops
-- View menus
-- Search food items
+- View food menus
+- Search for food items
 - Check food availability
-- Add items to cart
-- Update item quantity
+- Add food items to cart
 - Place orders
-- Simulated online payment
-- Virtual token generation
-- QR code generation
-- Order status tracking
-- Estimated pickup time
-- Order history
-- Rating and feedback
+- Make simulated online payments
+- Receive virtual tokens
+- Generate QR codes
+- Track order status
+- View estimated pickup time
+- View previous orders
+- Provide ratings and feedback
 
-## 👨‍🍳 Shopkeeper Features
+Shopkeepers can manage incoming orders and update order status, while administrators can manage food courts, shops, users, and reports.
 
-- Shopkeeper login
-- Shopkeeper dashboard
-- View incoming orders
-- Manage order status
-- Manage menu items
-- Update food availability
-- Inventory management
-- Virtual token / QR verification
-- Complete orders
+---
 
-## 👨‍💼 Administrator Features
+## 🎯 Project Objectives
 
-- Administrator login
-- Admin dashboard
-- Food court management
-- Shop management
-- User management
+The main objectives of VIT FoodHub are:
+
+1. Reduce physical queues at campus food courts.
+2. Provide a simple online food ordering interface.
+3. Allow students to track their orders.
+4. Provide virtual tokens for order collection.
+5. Help shopkeepers manage incoming orders efficiently.
+6. Provide administrators with centralized management facilities.
+7. Demonstrate Agile and Scrum practices during software development.
+
+---
+
+## ✨ Key Features
+
+### 👨‍🎓 Student Features
+
+- Registration and Login
+- Browse Food Courts
+- Browse Food Shops
+- View Food Menus
+- Search Food Items
+- Check Food Availability
+- Add Items to Cart
+- Update Cart Quantity
+- Place Orders
+- Simulated Online Payment
+- Virtual Token Generation
+- QR Code Generation
+- Order Status Tracking
+- Estimated Pickup Time
+- Order History
+- Ratings and Feedback
+- Favourites and Reorder
+
+### 👨‍🍳 Shopkeeper Features
+
+- Shopkeeper Login
+- Shopkeeper Dashboard
+- View Incoming Orders
+- Manage Order Status
+- Manage Menu Items
+- Update Food Availability
+- Inventory Management
+- Virtual Token / QR Verification
+- Complete Orders
+
+### 👨‍💼 Administrator Features
+
+- Administrator Login
+- Administrator Dashboard
+- Food Court Management
+- Shop Management
+- User Management
 - Reports
 - Analytics
 
 ---
 
-# 🖥️ Frontend Implementation
+## 👥 User Roles
+
+| Role | Main Responsibilities |
+|------|------------------------|
+| **Student** | Browse food, place orders, receive tokens, and track orders |
+| **Shopkeeper** | Manage menu, availability, incoming orders, and token verification |
+| **Administrator** | Manage users, food courts, shops, and reports |
+
+---
+
+## 🖥️ Frontend Implementation
 
 The current repository contains the frontend implementation of VIT FoodHub.
 
-The application provides separate role-based dashboards and interfaces.
+The application provides separate role-based interfaces for Students, Shopkeepers, and Administrators.
 
+### Student Interface
 
-VIT FoodHub
-│
-├── 👨‍🎓 Student
-│   ├── Dashboard
-│   ├── Food Courts
-│   ├── Shops
-│   ├── Menu
-│   ├── Search
-│   ├── Cart
-│   ├── Checkout
-│   ├── Payment
-│   ├── Virtual Token
-│   ├── QR Code
-│   ├── Order Tracking
-│   ├── Order History
-│   └── Feedback
-│
-├── 👨‍🍳 Shopkeeper
-│   ├── Dashboard
-│   ├── Orders
-│   ├── Menu Management
-│   ├── Inventory
-│   └── Token Verification
-│
-└── 👨‍💼 Administrator
-    ├── Dashboard
-    ├── Food Court Management
-    ├── Shop Management
-    ├── User Management
-    └── Reports & Analytics
-🔄 Main Student Ordering Flow
-Login / Register
-       ↓
-Student Dashboard
-       ↓
-Browse Food Courts
-       ↓
-Select Shop
-       ↓
-View Menu
-       ↓
-Check Availability
-       ↓
-Add Items to Cart
-       ↓
-Checkout
-       ↓
-Payment
-       ↓
-Virtual Token
-       ↓
-QR Code
-       ↓
-Track Order
-       ↓
-Order Ready
-       ↓
-Collect Food
-🛠️ Technology Stack
-Frontend
-Technology	Purpose
-React	Frontend UI development
-JavaScript	Application logic
-Vite	Development server and build tool
-HTML5	Page structure
-CSS / UI Styling	Interface styling
-npm	Package management
+- Dashboard
+- Food Courts
+- Shops
+- Menu
+- Search
+- Cart
+- Checkout
+- Payment
+- Virtual Token
+- QR Code
+- Order Tracking
+- Order History
+- Feedback
 
-Note: Backend technologies such as Node.js, Express.js, and MongoDB are not included in the current repository because the current phase focuses on frontend development.
+### Shopkeeper Interface
 
-Planned Backend
+- Dashboard
+- Orders
+- Menu Management
+- Inventory
+- Token Verification
 
-The backend phase will be implemented separately using the technologies selected by the team.
+### Administrator Interface
 
-Planned backend components include:
+- Dashboard
+- Food Court Management
+- Shop Management
+- User Management
+- Reports & Analytics
 
-Frontend
-   ↓
-REST APIs
-   ↓
-Backend Server
-   ↓
-Database
-📊 Agile Methodology
+---
 
-The project follows the Agile Scrum methodology.
+## 🔄 Main Student Ordering Flow
 
-The development was divided into 4 sprints.
+**Login / Register**
 
-Sprint 1 – Project Planning
+↓
+
+**Student Dashboard**
+
+↓
+
+**Browse Food Courts**
+
+↓
+
+**Select Shop**
+
+↓
+
+**View Menu**
+
+↓
+
+**Check Availability**
+
+↓
+
+**Add Items to Cart**
+
+↓
+
+**Checkout**
+
+↓
+
+**Payment**
+
+↓
+
+**Virtual Token**
+
+↓
+
+**QR Code**
+
+↓
+
+**Track Order**
+
+↓
+
+**Order Ready**
+
+↓
+
+**Collect Food**
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend UI development |
+| JavaScript | Application logic |
+| Vite | Development server and build tool |
+| HTML5 | Page structure |
+| CSS | Interface styling |
+| npm | Package management |
+
+> **Note:** The current repository contains the frontend implementation. Backend technologies such as Node.js, Express.js, and a database will be added during the backend development phase.
+
+### Planned Backend
+
+The backend will provide APIs for:
+
+- Authentication
+- User Management
+- Food Courts and Shops
+- Menu and Inventory
+- Cart and Orders
+- Payment
+- Virtual Tokens
+- Order Tracking
+- Feedback
+
+---
+
+## 📊 Agile Methodology
+
+The project follows the **Agile Scrum methodology** and has been planned across four sprints.
+
+### Sprint 1 – Project Planning
 
 Activities included:
 
-Requirement gathering
-Stakeholder analysis
-Scope definition
-Sprint planning
-Work Breakdown Structure
-Project planning
-Sprint 2 – Requirements & Product Backlog
+- Requirement Gathering
+- Stakeholder Analysis
+- Scope Definition
+- Sprint Planning
+- Work Breakdown Structure
+- Initial Project Planning
+
+### Sprint 2 – Requirements and Product Backlog
 
 Activities included:
 
-Epic identification
-User story creation
-User story prioritization
-Story point estimation
-Use case diagram
-Activity diagram
-Product backlog
-Sprint backlog
-Sprint 3 – Agile Tool Configuration
+- Epic Identification
+- User Story Creation
+- User Story Prioritization
+- Story Point Estimation
+- Use Case Analysis
+- Activity Diagram
+- Product Backlog
+- Sprint Backlog
 
-Agile project management tools were configured and evaluated.
+### Sprint 3 – Agile Tool Configuration
 
-Tools used:
+Agile project management tools used:
 
-Monday.com
-Jira
+- Monday.com
+- Jira
 
 Activities included:
 
-Sprint planning
-Sprint backlog management
-User story assignment
-Team member assignment
-Kanban board
-Workflow configuration
-Sprint dashboard
-Workload analysis
-Agile tool comparison
-Sprint 4 – Development
+- Sprint Planning
+- Sprint Backlog Management
+- User Story Assignment
+- Team Member Assignment
+- Kanban Board
+- Workflow Configuration
+- Sprint Dashboard
+- Workload Analysis
+- Agile Tool Comparison
 
-The project moved into the actual development phase.
+### Sprint 4 – Development
 
-Current activities include:
+The project has now moved into the actual development phase.
 
-Frontend implementation
-Role-based interfaces
-Student ordering flow
-Shopkeeper interface
-Administrator interface
-UI implementation based on approved user stories
-👥 Team Members & Roles
-Team Member	Role
-Lahari	: Frontend Development / Project Coordination
-Disha	: Backend Development
-Sagar	: UI/UX Design & Documentation
-Praveena	: Testing & Integration
+Current development activities include:
+
+- Frontend implementation
+- Role-based interfaces
+- Student ordering flow
+- Shopkeeper interface
+- Administrator interface
+- Implementation of approved user stories
+- Git and GitHub based development workflow
+
+---
+
+## 👨‍💻 Team Members and Roles
+
+| Team Member | Role |
+|-------------|------|
+| **Lahari MP** | Frontend Development / Project Coordination |
+| **[Member 2 Name]** | Backend Development |
+| **[Member 3 Name]** | UI/UX Design & Documentation |
+| **[Member 4 Name]** | Testing & Integration |
+
+> Replace the placeholder names and roles with the actual team member information before submission.
+
+---
+
+## 📂 Repository Information
+
+**Project Name:** VIT FoodHub
+
+**Project Purpose:** Smart Food Court Ordering & Queue Management System
+
+**Repository:** [VIT-FoodHub](https://github.com/LahariMP22/VIT-FoodHub)
+
+**Development Methodology:** Agile Scrum
+
+**Current Phase:** Frontend Development Completed
+
+**Next Phase:** Backend Development and Integration
+
+---
+
+## 🚀 Running the Project Locally
+
+### 1. Clone the Repository
 
 
-📋 User Roles
-Role	Main Responsibilities
-Student	Browse food, place orders, receive tokens, track orders
-Shopkeeper	Manage menu, inventory, incoming orders and token verification
-Administrator	Manage users, shops, food courts and reports
-🚀 Running the Project Locally
-1. Clone the Repository
 git clone https://github.com/LahariMP22/VIT-FoodHub.git
 2. Navigate to the Project
 cd VIT-FoodHub
@@ -254,17 +347,7 @@ npm run dev
 
 The terminal will display the local development URL.
 
-Open that URL in a web browser to access the application.
-
-📂 Repository
-
-GitHub Repository:
-
-https://github.com/LahariMP22/VIT-FoodHub
-
-The repository contains the current frontend implementation of the VIT FoodHub project.
-
-The repository will be updated as development progresses.
+Open the displayed URL in your browser to access the application.
 
 📸 Website Preview
 1. Login Screen
@@ -275,11 +358,11 @@ The repository will be updated as development progresses.
 <img width="1365" height="702" alt="VIT FoodHub Shopping Cart" src="https://github.com/user-attachments/assets/03ae93e0-3369-4dda-b1cd-0c9a95af231d" />
 4. Checkout
 <img width="1365" height="708" alt="VIT FoodHub Checkout" src="https://github.com/user-attachments/assets/edaadbfc-57c1-4cae-9192-554e8470eba3" />
-5. Order Placement & Virtual Token
-<img width="1365" height="720" alt="VIT FoodHub Order & Token" src="https://github.com/user-attachments/assets/30299a43-0ca5-467e-b21a-69a5fa7e4e19" />
+5. Order Placement and Virtual Token
+<img width="1365" height="720" alt="VIT FoodHub Order and Virtual Token" src="https://github.com/user-attachments/assets/30299a43-0ca5-467e-b21a-69a5fa7e4e19" />
 6. Shopkeeper Dashboard
 <img width="1364" height="717" alt="VIT FoodHub Shopkeeper Dashboard" src="https://github.com/user-attachments/assets/ba6a15b9-de7b-40f9-b04b-e23eb1984637" />
 7. Administrator Dashboard
 <img width="1363" height="713" alt="VIT FoodHub Administrator Dashboard" src="https://github.com/user-attachments/assets/ebb62157-f233-4841-9216-305a7191fb71" />
 8. Administrator Reports
-<img width="1365" height="720" alt="VIT FoodHub Admin Reports" src="https://github.com/user-attachments/assets/3adaec18-c829-42ad-97eb-bdc3187652d4" />
+<img width="1365" height="720" alt="VIT FoodHub Administrator Reports" src="https://github.com/user-attachments/assets/3adaec18-c829-42ad-97eb-bdc3187652d4" />
