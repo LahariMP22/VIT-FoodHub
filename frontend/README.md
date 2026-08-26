@@ -1,3 +1,166 @@
-# VIT-Foodhub
+# 🍔 VIT FoodHub
 
-[![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-v3xevqks)
+## Smart Food Court Ordering & Queue Management System
+
+VIT FoodHub is a web-based food court ordering and queue management system designed to simplify food ordering inside the VIT campus.
+
+The system allows students to browse food courts and shops, view menus, add items to a cart, place orders, receive virtual tokens, and track their order status.
+
+The project also provides separate interfaces for **Students, Shopkeepers, and Administrators**.
+
+> 🚧 Current Status: Frontend development completed. Backend integration and database implementation are planned for the next phase.
+
+---
+
+## 📌 Project Overview
+
+Food courts in large campuses can become crowded during peak hours, resulting in long queues and inefficient order management.
+
+VIT FoodHub aims to solve this problem by providing a simple digital ordering system where students can:
+
+- Browse available food courts
+- Browse food shops
+- View food menus
+- Search for food items
+- Check item availability
+- Add food items to cart
+- Place orders
+- Make a simulated online payment
+- Receive a virtual token
+- Generate a QR code
+- Track order status
+- View estimated pickup time
+- View previous orders
+- Provide feedback
+
+Shopkeepers can manage incoming orders and update their order status, while administrators can manage food courts, shops, users, and reports.
+
+---
+
+# 🎯 Project Objectives
+
+The main objectives of VIT FoodHub are:
+
+1. Reduce physical queues at campus food courts.
+2. Provide a simple online food ordering interface.
+3. Allow students to track their orders.
+4. Provide virtual tokens for order collection.
+5. Help shopkeepers manage incoming orders efficiently.
+6. Provide administrators with centralized management features.
+7. Demonstrate the use of Agile project management practices in software development.
+
+---
+
+# 👥 User Roles
+
+The application is designed around three primary user roles.
+
+## 👨‍🎓 Student
+
+Students can:
+
+- Register and login
+- Browse food courts
+- Browse shops
+- View menus
+- Search food items
+- Check food availability
+- Add items to cart
+- Update cart quantities
+- Place orders
+- Complete simulated payment
+- Receive virtual tokens
+- Generate QR codes
+- Track order status
+- View estimated pickup time
+- View order history
+- Provide ratings and feedback
+
+---
+
+## 👨‍🍳 Shopkeeper
+
+Shopkeepers can:
+
+- Login to the system
+- View their dashboard
+- View incoming orders
+- Manage order status
+- Manage menu items
+- Update item availability
+- Manage inventory
+- Verify virtual tokens / QR codes
+- Complete orders
+
+---
+
+## 👨‍💼 Administrator
+
+Administrators can:
+
+- Login to the admin dashboard
+- Manage food courts
+- Manage shops
+- Manage users
+- View reports
+- View system analytics
+
+---
+
+# 🖥️ Frontend Implementation
+
+The current phase of the project focuses on the complete frontend interface.
+
+The frontend includes separate role-based interfaces for:
+
+```text
+VIT FoodHub
+│
+├── Student
+│   ├── Dashboard
+│   ├── Food Courts
+│   ├── Shops
+│   ├── Menu
+│   ├── Search
+│   ├── Cart
+│   ├── Checkout
+│   ├── Payment
+│   ├── Virtual Token
+│   ├── QR Code
+│   ├── Order Tracking
+│   ├── Order History
+│   └── Feedback
+│
+├── Shopkeeper
+│   ├── Dashboard
+│   ├── Orders
+│   ├── Menu Management
+│   ├── Inventory
+│   └── Token Verification
+│
+└── Administrator
+    ├── Dashboard
+    ├── Food Court Management
+    ├── Shop Management
+    ├── User Management
+    └── Reports & Analytics
+
+🚀 Running the Project Locally
+
+Clone the repository:
+
+git clone "https://github.com/LahariMP22/VIT-FoodHub.git"
+
+Navigate to the project:
+
+cd VIT-FoodHub
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Open the local development URL shown in the terminal.
